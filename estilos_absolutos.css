@@ -87,7 +87,7 @@ hr {
   border-color: lightblue;
 }
 
-.testimonio {
+.testimonio_contenedor {
   font-size: 12px;
   display: flex;
   flex-direction: row;
