@@ -1,0 +1,109 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;   /* 10px */
+}
+
+.header {
+  background-color: steelblue;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.titulo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.descripcion {
+  margin: 0.5em;
+  font-size: 1em;   /* la descripción va en función del título */
+}
+
+.material {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.1rem;
+}
+
+.material_elemento {
+  text-align: center;
+  font-size: 1.2em;
+  flex: 1 1 0px;
+  margin: 1em;
+}
+
+.foto {
+  width: 5rem;
+  height: auto;
+}
+
+.foto_redonda {
+  border-radius: 50%;
+  width: 7rem;
+  height: auto;
+  border-style: double;
+  border-width: 5px;
+  border-color: lightblue;
+}
+
+.testimonio {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonio_elemento {
+  width: 100%;  
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+  align-items: center;
+}
+
+.comentario {
+  padding: 1em;
+  text-align: center;
+  background-color:whitesmoke;
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0 1rem 0 0.5rem;
+  font-style: italic;
+}
+
+.persona {
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+hr {
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 1px;
+  margin: 2rem 0.5rem;
+}
+
+.video {
+  width: 50rem;
+  height: 21rem;
+}
+
+.video_texto {
+  font-size: 1rem;
+  margin-left: 1rem;
+  padding: 2rem;
+}
+
+.principal {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.explicacion {
+  font-size: 1.1em;
+}
+
