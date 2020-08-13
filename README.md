@@ -91,6 +91,16 @@ esto implica que el padding real será de 1 * 10px = 10 píxeles, y el tamaño d
 
 esto implica que tomará 1.5 * 20 píxeles (del header que definimos antes) = 30 píxeles. Si en lugar de `em` hubiéramos definido `font-size: 1.5rem;` el tamaño de la letra habría sido mucho más chico: 1.5 * 10 píxeles = 15 píxeles. Te invitamos a que hagas las pruebas.
 
+## Resumen de nuestra propuesta
+
+- el elemento raíz (html) marca el tamaño por defecto, ya sea en píxeles o en porcentaje. La recomendación es tomar 10 píxeles o su equivalente, 62.5% para facilitar las cuentas
+- los elementos contenedores toman como base el root element, se configuran en `rem`
+- los hijos del contenedor trabajan con `em`, que es la medida relativa al tamaño que define su contenedor padre.
+
+- Si quieren agrandar o achicar todo, cambiamos el tamaño del elemento raíz.
+- Si nos piden agrandar o achicar alguno de los contenedores, modificamos el `rem` de la medida base.
+- Si hay que hacer un cambio específico de algún elemento, se modifica su `em`
+
 ## Implementando los cambios
 
 ### Agrandar título y descripción
