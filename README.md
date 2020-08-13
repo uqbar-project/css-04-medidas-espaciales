@@ -97,9 +97,11 @@ esto implica que tomará 1.5 * 20 píxeles (del header que definimos antes) = 30
 - los elementos contenedores toman como base el root element, se configuran en `rem`
 - los hijos del contenedor trabajan con `em`, que es la medida relativa al tamaño que define su contenedor padre.
 
-- Si quieren agrandar o achicar todo, cambiamos el tamaño del elemento raíz.
-- Si nos piden agrandar o achicar alguno de los contenedores, modificamos el `rem` de la medida base.
-- Si hay que hacer un cambio específico de algún elemento, se modifica su `em`
+Entonces, 
+
+- si quieren agrandar o achicar todo, cambiamos el tamaño del elemento raíz.
+- si nos piden agrandar o achicar alguno de los contenedores, modificamos el `rem` de la medida base.
+- si hay que hacer un cambio específico de algún elemento, se modifica su `em`
 
 ## Implementando los cambios
 
