@@ -25,7 +25,7 @@ Como ven, podemos reconocer cuatro secciones:
 
 - el header, que identifica el nombre de la materia y una breve descripción, dispuestos en un layout vertical, es decir cada uno ocupa una línea.
 - el material, que tiene links a tres tecnologías. Aquí el layout es mixto: el contenedor tiene un layout horizontal, cada tecnología representa una columna, mientras que internamente el ícono y una breve descripción van con un layout vertical.
-- el video de la semana, que cuyo contenedor utiliza un layout horizontal, y luego separamos el título del video de la semana y la descripción con un layout vertical
+- el video de la semana, cuyo contenedor utiliza un layout horizontal, y luego separamos el título del video de la semana y la descripción con un layout vertical
 - y por último, los testimonios, que se forman con un contenedor cuyo layout es horizontal, y también es horizontal cada testimonio (la foto y la cita)
 
 Gráficamente:
