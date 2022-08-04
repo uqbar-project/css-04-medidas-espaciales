@@ -41,7 +41,7 @@ aunque más adelante habrá un ejemplo para profundizar sobre este modo de displ
 
 Por una cuestión de comodidad, vamos a considerar porcentajes en los siguientes casos:
 
-- width, 100% en todos los contenedores, y en las citas de los testimonios. Esto permite que lo puedas ver bien en cualquier dispositivo. Otra opción equivalente podría ser considerar `width: 100vw;` ([viewport width](https://developer.mozilla.org/es/docs/M%C3%B3vil/Viewport_meta_tag))
+- width, 100% en todos los contenedores, y en las citas de los testimonios. Esto permite que lo puedas ver bien en cualquier dispositivo. Otra opción equivalente podría ser considerar `width: 100vw;` ([viewport width](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag))
 - 50% de border-radius para lograr que la foto se vea redonda
 
 ### Versión absoluta: trabajo con píxeles
