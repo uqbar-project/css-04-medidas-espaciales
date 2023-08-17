@@ -11,7 +11,11 @@ A la hora de definir medidas, tenemos muchas variantes:
 - y las siguientes medidas **relativas**
   - em: toma como base el tamaño de la fuente del elemento padre
   - rem: toma como base el tamaño de la fuente del elemento raíz (el del `body`)
-  - vh / vw: viewport height o viewport width, toma el 1% del tamaño del dispositivo (el tamaño variará dependiendo de que estés trabajando en un celular, una tablet, una ventana desktop o una de pantalla ancha)
+  - vh / vw: viewport height o viewport width, toma el 1% del tamaño del dispositivo (el tamaño variará dependiendo de que estés trabajando en un celular, una tablet, una ventana desktop o una de pantalla ancha - incluso puede variar en un mismo dispositivo, como en un celular que muestre o no su barra de navegación)
+    + Para este último caso existen unidades de viewport más especificas según el User Agent:
+      * lvh / lvw para cuando toda la interfaz del UA está oculta.
+      * svh / svw para cuando toda la interfaz del UA está visible.
+      * dvh / dvw para que se adapte a que elementos de su interfaz están visibles actualmente.
 
 Definir esto puede ser un poco confuso, en especial lo similar que parecen las definiciones de _em_ y _rem_, pero vamos a mostrarlo con un ejemplo.
 
