@@ -57,7 +57,7 @@ La variante absoluta trabaja todo con píxeles: la ventaja que tiene es que pode
 
 eso exige que tengamos que actualizar los tamaños de cada fuente en forma manual, sin contar que posiblemente el usuario no haya tenido en cuenta otras medidas espaciales importantes, como el padding, el margin o el borde.
 
-Podés ver cómo resolvimos la página en el archivo [ejemplo_absoluto.html](./ejemplo_absoluto.html), con su archivo de estilos [estilos_absolutos.css](./estilos_absolutos.css).
+Podés ver cómo resolvimos la página en el archivo [ejemplo_absoluto.html](./04-algo3-absolutas.html), con su archivo de estilos [estilos_absolutos.css](./04-algo3-absolutas.css).
 
 ### Versión relativa: una posible estrategia
 
